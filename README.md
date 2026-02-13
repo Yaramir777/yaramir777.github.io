@@ -34,4 +34,5 @@
 ## 🔗 Контакты
 - GitHub: https://github.com/Yaramir777
 - Telegram: @Front_Wild
-страница портфолио (https://yaramir777.github.io/-/)
+
+страница портфолио (https://yaramir777.github.io/)
