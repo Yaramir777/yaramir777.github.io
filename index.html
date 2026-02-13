@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Портфолио Гайфуллина Ярамира. Семантическая HTML-верстка, адаптивные интерфейсы, CSS Grid и Flexbox, формы, SEO-friendly структура страниц.">
+    <title>Гайфуллин Ярамир — HTML/CSS верстка, семантика, Grid, Flexbox</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <script defer src="./JS/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <span class="header__title">Gaifullin Yaramir</span>
+            <nav class="sidebar">
+                <a class="sidebar__link" href="#projects">Проекты&#9875;</a>
+                <a class="sidebar__link" href="#about">Обо мне&#9875;</a>
+                <a class="sidebar__link" href="#contacts">Контакты&#9875;</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="layout">
+            <section class="hero">
+                <div class="hero__text">
+                    <h1 class="hero__title">Гайфуллин Ярамир</h1>
+                    <p class="hero__role">HTML-CSS developer</p>
+                    <p class="hero__desc">
+                        Верстаю семантические, адаптивные интерфейсы.
+                        Делаю фокус на: структуру, Grid/Flexbox, формы, SEO-friendly HTML.
+                    </p>
+                </div>
+                <div class="hero__image">
+                    <img class="hero__avatar" src="./assets/avatar_me.jpg" loading="lazy" alt="аватар">
+                </div>
+            </section>
+            <section class="about" id="about">
+                <h2 class="about__title">Обо мне</h2>
+                <p class="about__desc">
+                    Специализируюсь на вёрстке интерфейсов с упором на семантическую HTML-структуру,
+                    адаптивные layout-решения и предсказуемое поведение интерфейсов.
+                </p>
+                <p class="about__desc">
+                    Уверенно работаю с CSS Grid и Flexbox, формами, карточными интерфейсами
+                    и mobile-first подходом. В проектах делаю акцент на читаемость кода
+                    и корректную структуру документа.
+                </p>
+                <p class="about__desc">
+                    Сейчас развиваюсь в направлении технического SEO: структура страниц,
+                    индексация, доступность и влияние HTML-разметки на поисковую оптимизацию.
+                </p>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="projects__title">Проекты</h2>
+                <div class="cards">
+                    <article class="cards__item">
+                        <h3 class="cards__title">Service Page</h3>
+                        <div class="cards__image">
+                            <img class="cards__photo" src="./assets/page servise__page.png"
+                                alt="картинка страница сервиса" loading="lazy">
+                        </div>
+                        <p class="cards__desc">
+                            Семантическая HTML-страница с адаптивной сеткой
+                            на CSS Grid и Flexbox.
+                        </p>
+                        <p class="cards__tech">HTML5, CSS3, BEM, Grid, Flexbox</p>
+                        <a class="cards__link" href="https://yaramir777.github.io/service-page/" target="_blank"
+                            rel="noopener noreferrer">Перейти на страницу &#10149;</a>
+                    </article>
+                    <article class="cards__item">
+                        <h3 class="cards__title">Catalog Page</h3>
+                        <div class="cards__image">
+                            <img class="cards__photo" src="./assets/page catalog__page.png"
+                                alt="картинка страница каталога карточек" loading="lazy">
+                        </div>
+                        <p class="cards__desc">
+                            Каталог с карточками, повторяемой структурой
+                            и адаптивной сеткой.
+                        </p>
+                        <p class="cards__tech">HTML5, CSS3, Grid, Flexbox</p>
+                        <a class="cards__link" href="https://yaramir777.github.io/catalog-page/" target="_blank"
+                            rel="noopener noreferrer">Перейти
+                            на страницу &#10149;</a>
+                    </article>
+                    <article class="cards__item">
+                        <h3 class="cards__title">Product Page</h3>
+                        <div class="cards__image">
+                            <img class="cards__photo" src="./assets/page product__page.png" loading="lazy"
+                                alt="картинка страница одного товара">
+                        </div>
+                        <p class="cards__desc">
+                            Страница товара с вложенной семантикой
+                            и контентной структурой.
+                        </p>
+                        <p class="cards__tech">HTML5, CSS3, BEM</p>
+                        <a class="cards__link" href="https://yaramir777.github.io/product-page/" target="_blank"
+                            rel="noopener noreferrer">Перейти
+                            на страницу &#10149;</a>
+                    </article>
+                    <article class="cards__item">
+                        <h3 class="cards__title">Application Form</h3>
+                        <div class="cards__image">
+                            <img class="cards__photo" src="./assets/page form__page.png" loading="lazy"
+                                alt="картинка страница формы">
+                        </div>
+                        <p class="cards__desc">
+                            Форма с корректной семантикой,
+                            доступностью и валидацией.
+                        </p>
+                        <p class="cards__tech">HTML5, CSS3, Forms, Accessibility</p>
+                        <a class="cards__link" href="https://yaramir777.github.io/form-page/" target="_blank"
+                            rel="noopener noreferrer">Перейти на
+                            страницу &#10149;</a>
+                    </article>
+                </div>
+            </section>
+            <section class="contacts" id="contacts">
+                <h2 class="contacts__title">Контакты</h2>
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="https://github.com/Yaramir777" target="_blank"
+                            rel="noopener noreferrer">GitHub</a>
+                    </li>
+                    <li class="contacts__item">
+                        <a class="contacts__link" href="tg://resolve?domain=@Front_Wild" target="_blank"
+                            rel="noopener noreferrer">Telegram</a>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <p class="footer__desc">© 2026</p>
+    </footer>
+
+</body>
+
+</html>
